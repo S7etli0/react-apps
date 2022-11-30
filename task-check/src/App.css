@@ -1,0 +1,109 @@
+#main {
+  margin: 0px auto;
+  width: 750px;
+  background-color: rgb(217, 231, 173);
+  padding-bottom: 20px;
+  border: 15px solid rgb(164, 35, 35);
+  border-bottom-width: 25px
+}
+
+label {
+  width: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#taskError {
+  color: rgb(164, 35, 35);
+  padding-top: 10px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.taskbox {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+div.inputbox {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 20px 0px;
+  flex-direction: column;
+}
+
+h1,h2 {
+  text-align: center;
+  padding: 15px 15px 0px;
+  margin-top: 0px;
+  color: white;
+}
+
+h1 {
+  margin: 0px auto;
+  width: 750px;
+  background-color: rgb(164, 35, 35);
+  padding: 25px 15px;
+}
+
+div.tasktab {
+  width: 40%;
+  padding: 0px 15px 15px;
+  background-color: rgb(164, 35, 35);
+  color: rgb(83, 76, 76);
+  font-weight: bold;
+}
+
+div.tasktab div{
+  font-style: italic;
+}
+
+div.tasktab label {
+  font-size: 18px;
+  font-style: normal;
+}
+
+div.innerlist {
+  background-color: rgb(217, 231, 173);
+  padding: 5px 10px; 
+}
+
+form {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(164, 35, 35);
+  color: white;
+  padding: 15px;
+}
+
+input[type=submit] {
+  width: 90px;
+  background-color: white;
+  color: rgb(164, 35, 35);
+  border: 3px solid white;
+  font-size: 14px;
+}
+
+input[type=text] {
+  color: rgb(83, 76, 76);
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  color: rgb(16, 100, 211);
+  font-weight: bold;
+}
+
+input[type=submit]:active {
+  background-color: rgb(16, 100, 211);
+  color: white;
+}
+
+form {
+  font-size: 16px;
+}

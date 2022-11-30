@@ -1,0 +1,97 @@
+label {
+  display: inline-block;
+  width: 95px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 115px;
+  text-align: left;
+  border-radius: 10px;
+  text-indent: 5px;
+  background-color: rgb(159, 231, 255);
+  padding: 2px;
+}
+
+h2 {
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+
+h2, p { 
+  width: 215px;
+  text-align: center;
+}
+
+input[type=submit] {
+  width: 100%;
+  text-align: center;
+}
+
+h2, input[type=submit] {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid black;
+  background-color: rgb(0, 0, 180);
+  color: white;
+}
+
+input[type=radio] {
+  width: 15px;
+}
+
+input[name=yearType] {
+  accent-color: black;
+}
+
+input[type=submit] {
+  padding: 7.5px 0px;
+  border-radius: 16px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+input[type=submit]:hover {
+  letter-spacing: 8px;
+}
+
+input[type=submit]:active {
+  font-style: italic;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+}
+
+div:nth-child(1) {
+  background-color: rgb(83, 119, 209);
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 240px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+
+#fail, p:first-of-type {
+  padding: 1.5px 0px 4.5px;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+p:first-of-type {
+  color: black;
+  background-color: rgba(0, 255, 255, 0.526);
+  border: 2px solid black;
+}
+
+::placeholder, body, input {
+  font-weight: bold;
+}
